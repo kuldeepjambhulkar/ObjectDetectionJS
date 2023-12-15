@@ -1,6 +1,6 @@
 # Live demo 
-🔴 Note : As of now the object detection will be logged in browser's console, it is better to open the code & demo site in desktop/laptop
-🟢 Link : [detectobj.netlify.app](https://detectobj.netlify.app/)
+🔴 Note : As of now the object detection will be logged in browser's console, it is better to open the code & demo site in desktop/laptop  
+🟢 Link : [DetectObjVideo.netlify.app](https://detectobjvideo.netlify.app/)
 
 # Object Detection with JavaScript
 
