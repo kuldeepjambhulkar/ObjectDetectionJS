@@ -51,8 +51,7 @@ function Detection() {
   useEffect(()=>{runCoco()},[]);
 
   return (
-    <div className="App">
-      <header className="App-header">
+    <div>
         <Webcam
           ref={webcamRef}
           muted={true} 
@@ -64,7 +63,7 @@ function Detection() {
             right: 0,
             textAlign: "center",
             zindex: 9,
-            width: 640,
+            width: "100%",
             height: 480,
           }}
         />
@@ -72,18 +71,19 @@ function Detection() {
         <canvas
           ref={canvasRef}
           style={{
-            position: "absolute",
-            marginLeft: "auto",
-            marginRight: "auto",
+            position: 'absolute',
+            marginLeft: 'auto',
+            marginRight: 'auto',
             left: 0,
             right: 0,
-            textAlign: "center",
-            zindex: 8,
-            width: 640,
-            height: 480,
+            textAlign: 'center',
+            zIndex: 8,
+            width: "100%",
+            height: 480, // Adjust as needed
+            display: 'block',
+            maxWidth: '800px', // Set a maximum width if desired
           }}
         />
-      </header>
     </div>
   );
 }
