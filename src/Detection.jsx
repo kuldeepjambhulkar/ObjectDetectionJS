@@ -79,9 +79,9 @@ function Detection() {
             textAlign: 'center',
             zIndex: 8,
             width: "100%",
-            height: 480, // Adjust as needed
+            height: 480, 
             display: 'block',
-            maxWidth: '800px', // Set a maximum width if desired
+            maxWidth: '800px',
           }}
         />
     </div>
